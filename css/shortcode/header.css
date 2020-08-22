@@ -1,10 +1,3 @@
-/*-----------------------------------------------------------------------------------
-  Template Name: Tmart-Minimalist eCommerce HTML5 Template.
-  Template URI: #
-  Description: Tmart is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
-  Author: Theme365 
-  Version: 1.0
--------------------------------------------------------------------------------------*/
 /*
  
     font-family: 'Poppins', sans-serif;
@@ -26,13 +19,13 @@
   justify-content: center;
 }
 .main__menu > li > a {
-  color: #666666;
+  color: #2F3F8B;
   display: block;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
   line-height: 70px;
   position: relative;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-family: 'MontserratBold';
 }
 .main__menu > li {
   padding: 0 20px;
@@ -66,7 +59,7 @@
 }
 
 .main__menu > li:hover > a{
-  color: #2F3F8B;
+  color: rgb(252, 0, 0);
 }
 .sidebar--content .htc__news__inner {
   margin: 0 auto;
@@ -80,9 +73,6 @@
 .header--2 .mean-container a.meanmenu-reveal span {
   background: #fff none repeat scroll 0 0;
 }
-
-
-
 
 
 
@@ -124,16 +114,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*-------------------------
   Menu Style 7
 --------------------------*/
@@ -158,17 +138,6 @@
   width: 189px;
   z-index: 99;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*-----------------------------------------
@@ -258,7 +227,7 @@
 }
 .main__menu ul.dropdown li a {
   background: #ffffff none repeat scroll 0 0;
-  color: #333;
+  color: #2F3F8B;
   display: block;
   font-size: 12px;
   font-weight: 400;
@@ -267,10 +236,11 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
+  font-family: 'MontserratBold';
 }
 .main__menu li.drop ul.dropdown li:hover > a {
-  background: #fafafa none repeat scroll 0 0;
-  color: #2F3F8B;
+  background: #e0e0e0 none repeat scroll 0 0;
+  color: rgb(252, 0, 0);
 }
 .scroll-header .main__menu li.drop ul.dropdown {
   top: 100%;
@@ -362,14 +332,14 @@
     padding-left: 0;
 }
 .menu-extra li span {
-    color: #666666;
-    font-size: 19px;
+    color: #2F3F8B;
+    font-size: 22px;
     line-height: 30px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
 }
 .menu-extra li span:hover {
-    color: #2F3F8B;
+    color: rgb(252, 0, 0);
 }
 /*---------------------------
   Header Stayle 2
@@ -1103,7 +1073,7 @@ h4.offset__title {
     border-bottom: none;
 }
 .category-menu-list ul li a {
-    color: #333;
+    color: #2F3F8B;
     display: block;
     font-size: 14px;
     letter-spacing: 0.4px;
@@ -1111,13 +1081,14 @@ h4.offset__title {
     text-transform: capitalize;
     background-color: #fff;
     transition: all .3s ease 0s;
+    font-family: 'MontserratMedium';
 }
 .category-menu-list ul li a span img {
     margin-right: 5px;
     width: 15px;
 }
 .category-menu-list ul li:hover a {
-    color: #2F3F8B;
+    color: rgb(252, 0, 0);
     background-color: #f9f9f9;
 }
 .category-menu-list ul li .category-menu-dropdown {
@@ -1145,7 +1116,7 @@ h4.offset__title {
   text-align: left;
   top: 0;
   transition: all 0.3s ease 0s;
-  width: 315px;
+  width: 320px;
   height: 240px;
   z-index: 999999999;
 }
@@ -1165,7 +1136,7 @@ h4.offset__title {
   text-align: left;
   top: 0;
   transition: all 0.3s ease 0s;
-  width: 150px;
+  width: 155px;
   height: 195px;
   z-index: 999999999;
 }
@@ -1185,7 +1156,7 @@ h4.offset__title {
   text-align: left;
   top: 0;
   transition: all 0.3s ease 0s;
-  width: 160px;
+  width: 165px;
   height: 100px;
   z-index: 999999999;
 }
@@ -1205,7 +1176,7 @@ h4.offset__title {
   text-align: left;
   top: 0;
   transition: all 0.3s ease 0s;
-  width: 190px;
+  width: 210px;
   height: 130px;
   z-index: 999999999;
 }
@@ -1263,13 +1234,13 @@ h4.offset__title {
 .category-menu-list ul li .category-common ul li a,
 .category-menu-list ul li .category-common2 ul li a {
     padding: 3px 0;
-    color: #333;
+    color: #2F3F8B;
     background-color: transparent;
 }
 .category-menu-list ul li .category-common ul li a:hover,
 .category-menu-list ul li .category-common2 ul li a:hover {
     background-color: transparent;
-    color: #2F3F8B;
+    color: rgb(252, 0, 0);
 }
 .category-menu-list ul li .mega-banner-img a {
     padding: 0;
@@ -1322,17 +1293,3 @@ h4.offset__title {
 .sticky__header.scroll-header {
   z-index: 9999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
